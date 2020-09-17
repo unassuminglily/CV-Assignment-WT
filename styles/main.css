@@ -1,0 +1,53 @@
+/* CV Main Styles */
+
+body {
+    box-sizing: border-box;
+    /* margin-top: 13.2px;
+    margin-left: 65.4px;
+    margin-right: 62.4px;
+    margin-bottom: 18.5px; */
+    font-size: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(19, 18, 18);
+    margin: 1em 0;
+    padding: 0;
+}
+
+.row {
+    font-size: 71%;
+    /* margin: 7% 0; */
+}
+
+.left {
+    margin-left: 7%;
+    float: left;
+    width: 63%;
+    text-align: justify;
+}
+
+.left p {
+    font-weight: bold;
+}
+
+.left ul {
+    list-style-position: inside;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.right {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    width: 30%;
+    margin-right: 0%;
+}
+
+.loc {
+    font-weight: normal;
+}
