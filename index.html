@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashesi CV Generator powered by Lily Ofori-Amanfo</title>
+    <link rel="stylesheet" href="./styles/form.css" </head>
+
+    <body>
+
+        <body>
+            <header>
+                <h1>Welcome to the dynamic Ashesi CV generator
+                </h1>
+                <p><em>Please follow the instructions and fill in the required
+                    details as accurately and as best as possible</em>
+                </p>
+            </header>
+
+            <form method="GET" action="cv.html" id="cv-f">
+
+                <fieldset class="identity">
+                    <legend>Contact details:</legend>
+                    <!-- everything is required except middlename -->
+                    <label for="fname">Please enter your first name*</label>
+                    <small></small>
+                    <input type="text" id="fname" name="firstname" required>
+                    <br>
+                    <label for="mname">Please enter your middle name</label>
+                    <input type="text" id="mname" name="middlename">
+                    <br>
+                    <label for="lname">Please enter your last name*</label>
+                    <input type="text" id="lname" name="lastname" required>
+                    <br>
+                    <label for="cars">Choose a gender:</label>
+
+                    <select name="gender" id="gen">
+                        <option value="0" selected>Please select an option</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select> <br>
+                    <label for="p_o">Please enter your postal address*</label>
+                    <input type="text" id="p_o" name="address" required>
+                    <br>
+                    <!-- make it in such a way that more than one numbers can be input -->
+                    <label for="mobile">Please enter your mobile number with country code*</label>
+                    <!-- ask them to differ by space you you can split same goes for other multiple values here -->
+                    <input type="text" id="mobile" name="number" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$" required placeholder="xxx xxx xxxx">
+                    <br>
+                    <label for="email">Please enter an active email*</label>
+                    <input type="email" id="mail" name="email" pattern="[^@\s]+@[^@\s]+" required>
+                    <br>
+                    <label for="LI">Please enter your LinkedIn URL*</label>
+                    <input type="url" id="LI" name="LinkedIn" pattern="https?://.+" required>
+                    <small>*required</small>
+                </fieldset>
+
+                <button type="submit" id="save" onsubmit="getDeets()">Let's go!</button>
+            </form>
+
+            <script src="./js/main.js"></script>
+        </body>
+
+    </body>
+
+</html>

@@ -4,18 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/cv.css">
     <title>CV Template</title>
 </head>
 
 <body>
-    <!-- Dynamic Portion -->
-    <section class="contact">
-
-    </section>
-    <!-- Static portion -->
-
     <section class="main">
+        <!-- Dynamic Portion -->
+        <section class="contact">
+            <p id="c-name">Full name</p>
+            <p id="c-addy" class="otherc">Address</p>
+            <p id="c-mobile" class="otherc">Phone numbers</p>
+            <p id="c-mail" class="otherc">Email address</p>
+            <p id="c-LI" class="otherc">LinkedIn URL</p>
+
+        </section>
+
+
+        <!-- Static portion -->
         <section class="row">
             <div class="left">
                 <h3>EDUCATION</h3>
@@ -129,9 +135,11 @@
             </div>
         </section>
 
-
     </section>
 
-</body>
 
-</html>
+    <!-- // first = localStorage.getItem("first") // middle = localStorage.getItem("midd") // last = localStorage.getItem("last") // addy = localStorage.getItem("pob") // mobile = localStorage.getItem("mob") // nationality = localStorage.getItem("nation") // email
+    = localStorage.getItem("mail") // li = localStorage.getItem("li") // document.getElementById("c-name").innerHTML = `${first} ${middle} ${last}` // document.getElementById("c-addy").innerHTML = `${addy}` // document.getElementById("c-mobile").innerHTML -->
+    <script src="./js/cv.js"></script>
+
+</body>

@@ -1,4 +1,4 @@
-# CV-Assignment-WT2020
+# CV-Assignment-Web Tech 2020
 My submission for the first assignment in the Web technologies class
 
 This assignment is designed for you to practice your HTML, CSS and JavaScript knowledge. You are to model/replicate the Ashesi Career Service CV format/Style using HTML CSS and JavaScript. In this exercise you are not allowed to use any framework, plugin or library. You are to code everything from scratch.

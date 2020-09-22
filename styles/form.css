@@ -1,0 +1,91 @@
+/* This will be the general form styling */
+
+form {
+    font-size: 110%
+}
+
+
+/*theme done, this way of styling is cleaner, practice more */
+
+header {
+    text-align: center;
+    font-weight: 900;
+    color: #23353b;
+}
+
+label {
+    display: block;
+    color: #475b63;
+    margin: 16px 0 3px;
+}
+
+fieldset {
+    border: none;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid tan;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #f3e8ee;
+    border: solid 1px tan;
+    font-family: 'Lucida Console', monospace;
+}
+
+legend {
+    color: #475b63;
+    background-color: #ffb0dc;
+    display: block;
+    width: 100%;
+    padding: 3px;
+}
+
+input[type=checkbox] {
+    background-color: red;
+    border: solid 1px red;
+    color: red;
+    outline: red;
+}
+
+
+/* BUTTON */
+
+button[type=submit] {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    font-size: 110%;
+    border-radius: 10px;
+    font-family: Rockwell, georgia, serif;
+}
+
+
+/* hovers and tabs */
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=url]:hover {
+    background-color: #f3e8ee88;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus {
+    outline: 2px solid tan;
+}
+
+input[type=sumbit]:hover,
+input[type=submit]:focus {
+    background-color: #32cd32;
+}
+
+input[type=sumbit]:hover {
+    background-color: #32cd32b9;
+}
